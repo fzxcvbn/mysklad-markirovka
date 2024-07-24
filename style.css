@@ -1,0 +1,43 @@
+.montserrat-mysklad-markirovka {
+    font-family: Montserrat;
+}
+.h2-style-mysklad-markirovka, .header-mysklad-markirovka, .subheader-mysklad-markirovka {
+    text-align: center;
+}
+.header-mysklad-markirovka  {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.element-vozmojnostey-mysklad-markirovka, .element-podderjivaemie-tovary-mysklad-markirovka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subelement-vozmojnostey-mysklad-markirovka {
+    border: 2px solid #30d5c8;
+    border-radius: 5px;
+    width: 400px;
+    margin: 15px;
+    padding: 15px;
+}
+.subheader-mysklad-markirovka {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.element-podderjivaemie-tovary-mysklad-markirovka {
+    background-color: #30d5c74b;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.subelement-podderjivaemie-tovary-mysklad-markirovka {
+    padding: 0px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.clother-mysklad-markirovka {
+    border: 2px solid #30d5c8;
+}
