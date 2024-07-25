@@ -41,3 +41,36 @@
 .clothes-mysklad-markirovka {
     border: 2px solid #30d5c8;
 }
+.mini-conteiner-perfume-mysklad-markirovka, .mini-conteiner-shoes-mysklad-markirovka, .mini-conteiner-water-mysklad-markirovka, .mini-conteiner-milk-mysklad-markirovka, .mini-conteiner-tobacco-mysklad-markirovka, .mini-conteiner-beer-mysklad-markirovka, .mini-conteiner-clothes-mysklad-markirovka {
+    margin: 0px 20px;
+}
+.conteiner-perfume-mysklad-markirovka, .conteiner-shoes-mysklad-markirovka, .conteiner-water-mysklad-markirovka, .conteiner-milk-mysklad-markirovka, .conteiner-tobacco-mysklad-markirovka, .conteiner-beer-mysklad-markirovka {
+    display: none;
+}
+.conteiner-perfume-mysklad-markirovka, .conteiner-shoes-mysklad-markirovka, .conteiner-water-mysklad-markirovka, .conteiner-milk-mysklad-markirovka, .conteiner-tobacco-mysklad-markirovka, .conteiner-beer-mysklad-markirovka, .conteiner-clothes-mysklad-markirovka {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 530px;
+    margin-top: 10px;
+}
+.conteiner-clothes-mysklad-markirovka {
+    display: flex;
+}
+.kassovay-programma-dly-markirovky, .otgruzka-i-priemka-tovarov-c-markirovkoy, .proizvodstvo-tovarov, .podderjka-importerov {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 1200px;
+    margin-top: 20px;
+}
+.conteiner-pochemu-nado-nachinat-seichas {
+    width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.element-pochemu-nado-nachinat-seichas {
+    width: 400px;
+}

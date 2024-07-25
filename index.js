@@ -4,7 +4,14 @@ let clothes = document.querySelector(".clothes-mysklad-markirovka"),
     milk = document.querySelector(".milk-mysklad-markirovka"),
     water = document.querySelector(".water-mysklad-markirovka"),
     shoes = document.querySelector(".shoes-mysklad-markirovka"),
-    perfume = document.querySelector(".perfume-mysklad-markirovka")
+    perfume = document.querySelector(".perfume-mysklad-markirovka"),
+    info_clothes = document.querySelector(".conteiner-clothes-mysklad-markirovka"),
+    info_beer = document.querySelector(".conteiner-beer-mysklad-markirovka"),
+    info_tobacco = document.querySelector(".conteiner-tobacco-mysklad-markirovka"),
+    info_milk = document.querySelector(".conteiner-milk-mysklad-markirovka"),
+    info_water = document.querySelector(".conteiner-water-mysklad-markirovka"),
+    info_shoes = document.querySelector(".conteiner-shoes-mysklad-markirovka"),
+    info_perfume = document.querySelector(".conteiner-perfume-mysklad-markirovka")
 
 clothes.addEventListener("click", function(){
     clothes.style.border = "2px solid #30d5c8"
@@ -14,6 +21,13 @@ clothes.addEventListener("click", function(){
     water.style.border = "none"
     shoes.style.border = "none"
     perfume.style.border = "none"
+    info_clothes.style.display = "flex"
+    info_beer.style.display = "none"
+    info_tobacco.style.display = "none"
+    info_milk.style.display = "none"
+    info_water.style.display = "none"
+    info_shoes.style.display = "none"
+    info_perfume.style.display = "none"
 })
 
 beer.addEventListener("click", function(){
@@ -24,6 +38,13 @@ beer.addEventListener("click", function(){
     water.style.border = "none"
     shoes.style.border = "none"
     perfume.style.border = "none"
+    info_clothes.style.display = "none"
+    info_beer.style.display = "flex"
+    info_tobacco.style.display = "none"
+    info_milk.style.display = "none"
+    info_water.style.display = "none"
+    info_shoes.style.display = "none"
+    info_perfume.style.display = "none"
 })
 
 tobacco.addEventListener("click", function(){
@@ -34,6 +55,13 @@ tobacco.addEventListener("click", function(){
     water.style.border = "none"
     shoes.style.border = "none"
     perfume.style.border = "none"
+    info_clothes.style.display = "none"
+    info_beer.style.display = "none"
+    info_tobacco.style.display = "flex"
+    info_milk.style.display = "none"
+    info_water.style.display = "none"
+    info_shoes.style.display = "none"
+    info_perfume.style.display = "none"
 })
 
 milk.addEventListener("click", function(){
@@ -44,6 +72,13 @@ milk.addEventListener("click", function(){
     water.style.border = "none"
     shoes.style.border = "none"
     perfume.style.border = "none"
+    info_clothes.style.display = "none"
+    info_beer.style.display = "none"
+    info_tobacco.style.display = "none"
+    info_milk.style.display = "flex"
+    info_water.style.display = "none"
+    info_shoes.style.display = "none"
+    info_perfume.style.display = "none"
 })
 
 water.addEventListener("click", function(){
@@ -54,6 +89,13 @@ water.addEventListener("click", function(){
     water.style.border = "2px solid #30d5c8"
     shoes.style.border = "none"
     perfume.style.border = "none"
+    info_clothes.style.display = "none"
+    info_beer.style.display = "none"
+    info_tobacco.style.display = "none"
+    info_milk.style.display = "none"
+    info_water.style.display = "flex"
+    info_shoes.style.display = "none"
+    info_perfume.style.display = "none"
 })
 
 shoes.addEventListener("click", function(){
@@ -64,6 +106,13 @@ shoes.addEventListener("click", function(){
     water.style.border = "none"
     shoes.style.border = "2px solid #30d5c8"
     perfume.style.border = "none"
+    info_clothes.style.display = "none"
+    info_beer.style.display = "none"
+    info_tobacco.style.display = "none"
+    info_milk.style.display = "none"
+    info_water.style.display = "none"
+    info_shoes.style.display = "flex"
+    info_perfume.style.display = "none"
 })
 
 perfume.addEventListener("click", function(){
@@ -74,4 +123,11 @@ perfume.addEventListener("click", function(){
     water.style.border = "none"
     shoes.style.border = "none"
     perfume.style.border = "2px solid #30d5c8"
+    info_clothes.style.display = "none"
+    info_beer.style.display = "none"
+    info_tobacco.style.display = "none"
+    info_milk.style.display = "none"
+    info_water.style.display = "none"
+    info_shoes.style.display = "none"
+    info_perfume.style.display = "flex"
 })
