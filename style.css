@@ -28,7 +28,7 @@
 }
 .element-podderjivaemie-tovary-mysklad-markirovka {
     background-color: #30d5c74b;
-    width: 850px;
+    width: 620px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
@@ -41,13 +41,13 @@
 .clothes-mysklad-markirovka {
     border: 2px solid #30d5c8;
 }
-.mini-conteiner-perfume-mysklad-markirovka, .mini-conteiner-shoes-mysklad-markirovka, .mini-conteiner-water-mysklad-markirovka, .mini-conteiner-milk-mysklad-markirovka, .mini-conteiner-tobacco-mysklad-markirovka, .mini-conteiner-beer-mysklad-markirovka, .mini-conteiner-clothes-mysklad-markirovka {
+.mini-conteiner-perfume-mysklad-markirovka, .mini-conteiner-shoes-mysklad-markirovka, .mini-conteiner-water-mysklad-markirovka, .mini-conteiner-milk-mysklad-markirovka, .mini-conteiner-clothes-mysklad-markirovka {
     margin: 0px 20px;
 }
-.conteiner-perfume-mysklad-markirovka, .conteiner-shoes-mysklad-markirovka, .conteiner-water-mysklad-markirovka, .conteiner-milk-mysklad-markirovka, .conteiner-tobacco-mysklad-markirovka, .conteiner-beer-mysklad-markirovka {
+.conteiner-perfume-mysklad-markirovka, .conteiner-shoes-mysklad-markirovka, .conteiner-water-mysklad-markirovka, .conteiner-milk-mysklad-markirovka {
     display: none;
 }
-.conteiner-perfume-mysklad-markirovka, .conteiner-shoes-mysklad-markirovka, .conteiner-water-mysklad-markirovka, .conteiner-milk-mysklad-markirovka, .conteiner-tobacco-mysklad-markirovka, .conteiner-beer-mysklad-markirovka, .conteiner-clothes-mysklad-markirovka {
+.conteiner-perfume-mysklad-markirovka, .conteiner-shoes-mysklad-markirovka, .conteiner-water-mysklad-markirovka, .conteiner-milk-mysklad-markirovka, .conteiner-clothes-mysklad-markirovka {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
